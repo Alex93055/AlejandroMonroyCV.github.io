@@ -1,8 +1,5 @@
 /**
-* Template Name: iPortfolio - v1.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+CSS styles 
 */
 
 /*--------------------------------------------------------------
@@ -72,7 +69,11 @@ h1, h2, h3, h4, h5, h6 {
   /* background: #040b14; */
   
   /* background:#24296d; */
-  background: #2a312ace;
+  /* background: #2a312ace; */
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   overflow-y: auto;
 }
 
@@ -276,6 +277,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -290,6 +293,11 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+}
+
+#green {
+
+  color:green;
 }
 
 .section-title h2 {
